@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #111D15;
+    color: white;
+    height: auto; 
+    width: auto; 
+    padding: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.first-img-footer-div{
+    display: flex;
+    gap: 5px;
+    margin-top: 25px;
+}
+.bold-text-footer{
+    font-family: Be Vietnam Pro;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 31.63px;
+    text-align: left;
+}
+.bold-text-span-footer{
+    color: #36B864;
+}
+.footer-third-p{
+font-family: Be Vietnam;
+font-size: 16px;
+font-weight: 300;
+line-height: 25.6px;
+text-align: justify;
+width: 356px;
+height: 78px;
+margin-top: 15px;
+}
+.h3-text{
+    text-align: justify;
+}
+.footer-third-ul li{
+    list-style: none;
+    margin: 20px;
+    text-align: justify;
+}
+.footer-fourth{
+    display: flex;
+    flex-direction: column;
+}
+.footer-input{
+    width: 291px;
+    height:43px;
+    padding: 10px 16px 10px 16px;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid #808080;
+    margin-top:20px;
+}
+.footer-btn{
+    width: 95px;
+    height: 43px;
+    padding: 16px 28px 16px 28px;
+    gap: 10px;
+    border-radius: 6px;
+    background-color:#36B864;
+    margin-top: 20px;
+    border: none;
+    color: white;
+}
+hr{
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid #D9D9D9
+}
+.footer-last-text{
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media (max-width: 480px) {
+     .container{
+        max-width: 100%;
+        max-height: 100%;
+     }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .bold-text-footer {
+        font-size: 18px;
+        text-align: center;
+    }
+    .footer-third-p {
+        font-size: 14px;
+        width: 100%;
+        /* height: auto; */
+    }
+    .footer-third-ul li {
+        margin: 10px;
+        text-align: center;
+    }
+    .footer-fourth{
+        text-align: center;
+    }
+    .h3-text{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .footer-input {
+        width: 100%;
+        height: 40px;
+    }
+    .footer-btn {
+        width: 100px;
+        height: 40px;
+        margin: 20%;
+    }
+    hr {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .footer-last-text {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+}
