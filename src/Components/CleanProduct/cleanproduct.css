@@ -1,0 +1,190 @@
+
+
+/* Mobile-first styles */
+.clean-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.clean-bold {
+    width: 100%;
+    font-family: 'Be Vietnam Pro';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: #111D15;
+}
+
+.clean-service {
+    width: 100%;
+    font-family: 'Be Vietnam Pro';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #111D15;
+}
+
+hr {
+    border: 1px solid #83A790;
+    width: 90%;
+}
+
+.clean-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.clean-up-h3 {
+    width: 100%;
+    font-family: 'Be Vietnam Pro';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    color: #111D15;
+}
+
+.clean-up-p {
+    width: 100%;
+    font-family: 'Be Vietnam Pro';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #666666;
+}
+
+.clean-btn, .clean-btn-green {
+    width: 100%;
+    max-width: 200px;
+    height: 44px;
+    margin-top: 20px;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.clean-btn {
+    border: 1px solid #666666;
+    background-color: transparent;
+}
+
+.clean-btn-green {
+    background-color: #36B864;
+    color: white;
+    border: none;
+}
+
+
+/* Media Queries for Tablets and Desktops */
+@media (min-width: 768px) {
+    .clean-header {
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0 40px;
+        margin-top: 30px;
+    }
+
+    .clean-bold {
+        font-size: 42px;
+        line-height: 44px;
+        width: 100%;
+    }
+
+    .clean-service {
+        font-size: 40px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+    .clean-service-p{
+        font-size: 26px;
+        line-height: 25px;
+        margin-top: 15px;
+    }
+
+    .clean-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-top: 30px;
+    }
+
+    .clean-div-img{
+       padding: 20px;
+    }
+    .house-clean-img{
+        width: 700px;
+    }
+    .clean-up-h3 {
+        font-size: 40px;
+        line-height: 35px;
+        width: 40%;
+        margin-top: 15px;
+    }
+
+    .clean-up-p {
+        font-size: 26px;
+        line-height: 24px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .clean-btn, .clean-btn-green {
+        width: 200px;
+        height: 70px;
+        margin-top: 20px;
+        padding: 12px 16px;
+        border-radius: 6px;
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .clean-header {
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        padding: 0 80px;
+    }
+
+    .clean-bold {
+        font-size: 44px;
+        line-height: 52.8px;
+    }
+
+    .clean-container {
+        padding: 0 80px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .clean-up-h3 {
+        font-size: 20px;
+    }
+    
+    .clean-up-p {
+        font-size: 20px;
+        line-height: 24px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .clean-div-img{
+        padding: 20px;
+     }
+     .house-clean-img{
+         width: auto;
+     }
+   
+}

@@ -1,0 +1,17 @@
+html, body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+  html{
+    overflow-y: scroll;
+  }
+  .container {
+    overflow-x: hidden; /* Apply to specific container if needed */
+    overflow-y: hidden;
+  }
+  
+  

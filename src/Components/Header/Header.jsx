@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react';
 import './header.css';
-import Clean from '../Assets/clean.png'
+import Clean from '../Assets/clean.png';
 
 export default function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div className='header'>
         <div className='first-img-div'>
@@ -12,14 +18,19 @@ export default function Header() {
                 <p>Cleaning Services Company</p>
             </div>
         </div>
-        <ul className='header-ul'>
+        
+        <button className='toggle-btn' onClick={toggleMenu}>
+            {isOpen ? '✖' : '☰'}
+        </button>
+        
+        <ul className={`header-ul ${isOpen ? 'show-menu' : ''}`}>
             <li className='active'>Home</li>
             <li>About us</li>
             <li>Service</li>
             <li>Blog</li>
             <li>Contact</li>
         </ul>
-        <button className='header-btn'>Get a quote</button>
+        {isOpen && <button className='header-btn'>Get a quote</button>}
     </div>
-  )
+  );
 }
