@@ -11,7 +11,7 @@
 .first-img-div{
     display: flex;
     gap: 5px;
-    margin-top: 25px;
+    margin: 20px 0px;
 }
 .header-ul{
     display: flex;
@@ -78,6 +78,10 @@
         gap: 20px;
 
     }
+    .first-img-div{
+        margin-right: 190px;
+        margin-top: 10px;
+    }
     /* .header-ul {
         flex-direction: column;
         gap: 10px;
@@ -96,12 +100,6 @@
     .bold-text {
         font-size: 22px;
     }
-    /* .header-btn {
-        width: 140px;
-        height: 40px;
-        font-size: 14px;
-        
-    } */
     .header-btn {
         display: none;
         margin-top: 20px;

@@ -82,6 +82,9 @@ hr {
     color: white;
     border: none;
 }
+.clean-div-img{
+    margin-top: 20px;
+ }
 
 
 /* Media Queries for Tablets and Desktops */
@@ -142,7 +145,6 @@ hr {
     .clean-btn, .clean-btn-green {
         width: 200px;
         height: 70px;
-        margin-top: 20px;
         padding: 12px 16px;
         border-radius: 6px;
         text-align: center;

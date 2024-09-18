@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <div className='header'>
         <div className='first-img-div'>
-            <img src={Clean} alt="" />
+            <img className='logo' src={Clean} alt="" />
             <div>
                 <p className='bold-text'><span className='bold-text-span'>Pro</span>Cleaning</p>
                 <p>Cleaning Services Company</p>

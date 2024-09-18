@@ -1,0 +1,149 @@
+.service-one-div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.service-one-p{
+    font-family: Lato;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: center;
+    width: 204px;
+    height: 19px;
+    color: #111D15;
+    margin-top: 20px;
+
+}
+.service-one-h3{
+    font-family: Outfit;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 52.8px;
+    text-align: left;
+    width: 527px;
+    height: 83px;
+    color: #111D15;
+    margin-top: 20px;
+}
+.service-one-pp{
+    width: 516px;
+    height: 60px;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #666666;
+    margin-top: 20px;
+}
+.service-one-btn{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    width: 167px;
+    height: 56px;
+    padding: 16px 36px 16px 36px;
+    border-radius: 6px;
+    color: #ffffff;
+    border: 0;
+    background: #36B864;
+    margin-top: 40px;
+}
+
+.service-one-img-div{
+    position: relative; /* Establishes a positioning context */
+    width: 478px;
+    height: 421px;
+}
+.service-img {
+    position: absolute; /* Positions the images relative to the container */
+    top: 0; /* Aligns images to the top */
+    left: 0; /* Aligns images to the left */
+    width: 100%; /* Makes images responsive within the container */
+    height: auto; /* Keeps image aspect ratio */
+}
+.spray {
+    z-index: 1; /* Ensures this image is on top if needed */
+    width: 231px;
+    height: 265px;
+    top: 140px;
+    left: -100px;
+    border-radius: 20px;
+    border: 10px;
+}
+.mop {
+    z-index: 0; /* Ensures this image is below */
+    left: 10px; /* Moves this image slightly to the right */
+    width: 378px;
+    height: 379px;
+    top: 0px;
+    border-radius: 20px 0px 0px 0px;
+    border: 10px 10px 0px 0px;
+    border-width: 10px, 10px, 0px, 0px;
+    border-color: #36B864;
+}
+
+
+@media (max-width: 1200px) {
+    .service-one-div {
+        justify-content: center; /* Center items on smaller screens */
+    }
+
+    .service-one-h3 {
+        font-size: 2.5rem; /* Smaller font size */
+        max-width: 90%; /* Allow more flexibility */
+    }
+}
+
+@media (max-width: 992px) {
+    .service-one-div{
+        flex-direction:column;
+        width: 100%;
+     }
+     .service-one-text{
+        margin: 20px;
+     }
+     .service-one-h3{
+        width: 100%;
+        margin: 20px 0px;
+     }
+     .service-one-p, .service-one-pp {
+        font-size: 1.8rem;
+        width: 100%;
+        text-align: left;
+     }
+     .service-one-pp{
+        margin-top: 40px; 
+     }
+     .service-one-btn{
+        width: 217px;
+        height: 80px;
+     }
+     .service-img{
+        margin: auto;
+     }
+     .spray {
+        z-index: 1; /* Ensures this image is on top if needed */
+        width: 231px;
+        height: 265px;
+        top: 140px;
+        left: 50px;
+     }
+     .mop {
+        z-index: 0; /* Ensures this image is below */
+        left: 200px; /* Moves this image slightly to the right */
+    }
+}
+
+@media (max-width: 768px) {
+ .service-one-div{
+    flex-direction: row;
+ }
+}
+
+@media (max-width: 576px) {
+ 
+}
