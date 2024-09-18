@@ -125,11 +125,12 @@
         align-items: center;
     }
     .service-one-h3 {
-        font-size: 1.75rem;
+        font-size: 1rem;
         text-align: left;
     }
     .service-one-btn {
         width: 100%;
+        margin: 20px;
     }
 }
 
@@ -140,13 +141,14 @@
     }
     .service-one-h3, .service-one-p, .service-one-pp {
         text-align: left;
-        font-size: 1.5rem;
+        font-size: 1rem;
         width: 100%;
         margin-top: 20px;
     }
     .service-one-btn {
         width: 100%;
         max-width: 150px;
+        margin: 20px;
     }
     .service-img {
         width: 100%;
