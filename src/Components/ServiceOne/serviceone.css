@@ -92,14 +92,14 @@
     }
     .service-one-h3 {
         font-size: 2rem;
-        margin: 20px 0;
+        margin: 20px ;
         text-align: left;
     }
     .service-one-p, .service-one-pp {
         font-size: 1.2rem;
         text-align: left;
         width: 100%;
-        margin-top: 20px;
+        margin: 20px;
     }
     .service-one-btn {
         max-width: 200px;
@@ -127,6 +127,7 @@
     .service-one-h3 {
         font-size: 1rem;
         text-align: left;
+        margin: 20px;
     }
     .service-one-btn {
         width: 100%;
@@ -143,7 +144,7 @@
         text-align: left;
         font-size: 1rem;
         width: 100%;
-        margin-top: 20px;
+        margin: 20px;
     }
     .service-one-btn {
         width: 100%;
